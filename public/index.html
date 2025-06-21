@@ -1,22 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alit Putra Website</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alit Putra Website</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="works.html">Works</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="works.html">Works</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
     </nav>
+  </header>
 
-    <h1>Hello, my name is Alit</h1>
-    <p>Welcome to my website</p>
+  <main>
+    <section class="hero">
+      <h1>Hello 👋</h1>
+      <h2>I'm Alit!</h2>
+      <h3>Aspiring Fullstack Developer</h3>
+    </section>
 
-    <script src="js/main.js"></script>
+    <section class="about">
+      <h2>Who am I?</h2>
+      <p>
+        I’m a Computer Science student and aspiring developer. I want to build things that help people.
+        <a href="works.html">See my works →</a>
+      </p>
+    </section>
+
+    <section class="works-preview">
+      <h2>What I've built</h2>
+      <div class="cards-group">
+        <div class="card">
+          <img src="https://placehold.co/300x200" alt="Project preview">
+          <p>Project description lorem ipsum dolor sit amet.</p>
+          <a href="#">View Project</a>
+        </div>
+        <!-- You can copy/paste more .card here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Alit Putra. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
